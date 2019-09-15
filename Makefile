@@ -1,5 +1,5 @@
 BIN=mdns-repeater
-LIBS=-lluci
+LIBS=-luci
 CFLAGS=-Os
 LDFLAGS=-s
 OBJS=$(BIN).o
