@@ -33,9 +33,8 @@
 #include <arpa/inet.h>
 #include <net/if.h>
 
-extern "C" {
-    #include <uci.h>
-}
+#include <uci.h>
+
 
 #define PACKAGE "mdns-repeater"
 #define MDNS_ADDR "224.0.0.251"
